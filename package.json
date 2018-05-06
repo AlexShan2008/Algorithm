@@ -1,0 +1,26 @@
+{
+  "name": "Algotithm",
+  "version": "1.0.0",
+  "description": "> 洋葱数学 ## 1 基础知识 > 应用环境：图灵机，量子计算机，生物计算机（此处讲的算法是应用图灵机环境，单台，非集群） ### 1.1 数组初始化 - 1. 声明数组 - 2. 赋值[] 数组中会保存终止符 - 3. 原型链上赋值需要的时间，保存数据的方法，如：arr.length arr.sort等",
+  "main": "test.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexShan2008/Algotithm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexShan2008/Algotithm/issues"
+  },
+  "homepage": "https://github.com/AlexShan2008/Algotithm#readme",
+  "devDependencies": {
+    "chai": "^4.1.2"
+  }
+}
