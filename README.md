@@ -141,5 +141,12 @@ Array.concat
 ```
 字符串的常用方法
 
-Number.MAX_SAFE_INTEGER
-Number.NEGATIVE_INFINITY
+Number.MAX_SAFE_INTEGER   最大整数
+Number.MIN_SAFE_INTEGER   最小整数
+Number.POSITIVE_INFINITY  正无穷
+Number.NEGATIVE_INFINITY  负无穷
+
+## 思考问题的方法：
+- 归纳
+- 演绎
+
