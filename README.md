@@ -150,3 +150,17 @@ Number.NEGATIVE_INFINITY  负无穷
 - 归纳
 - 演绎
 
+# 3 推荐书籍
+1. 《算法导论》  
+2. 《算法》  
+3. 《算法图解》  
+4. 《编程珠玑》  
+5. 《算法谜题》  
+
+- 讨论题：H5单页面应用路由的跳转，制作调转动画
+```sh
+history.pushState({idx: 1}, null, '/a')  
+history.state()  
+window.onpopstate  
+location.pathname  
+```
