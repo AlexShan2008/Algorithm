@@ -7,7 +7,7 @@ function gen(w) {
     arr[i] = i + 1
   }
 
-  fisher_yates_shuffle(arr)
+  fisher_yates_shuffler(arr)
 
   return arr
 }
@@ -19,20 +19,27 @@ function gen(w) {
 
 // O(nlgn) O(n!)
 // O(n)的打乱算法
-function fisher_yates_shuffle(arr) {
+function fisher_yates_shuffler(arr) {
   for (let i = 0; i < arr.length - 1; i++) { // 2N + 2
     // 从 [i, arr.length - 1] 中取一个整数
     // [i, N)
     const j = i + Math.floor(Math.random() * (arr.length - i));
 
     // c1 * N
-
+    swap(arr, i, j);
     // c2 * N
-    [arr[i], arr[j]] = [arr[j], arr[i]]
+    // [arr[i], arr[j]] = [arr[j], arr[i]]
   }
 
   // 2N + 2 + (c1+c2) * N = (c1+c2+2)*N + C3
   return arr
+}
+
+
+function swap(arr, i, j) {
+  const temp = arr[i];
+  arr[i] = arr[j];
+  arr[j] = temp;
 }
 
 
